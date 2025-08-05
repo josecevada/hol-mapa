@@ -39,6 +39,18 @@
     L.marker([19.3467, -99.1617]).addTo(map)
         .bindPopup('Coyoacán');
 
+    // Tercer marcador: Tlalpan
+    L.marker([19.288720, -99.166920]).addTo(map)
+        .bindPopup('Tlalpan');
+
+    // Cuarto marcador: Miguel Hidalgo
+    L.marker([19.407493, -99.190753]).addTo(map)
+        .bindPopup('Miguel Hidalgo');
+
+    // Quinto marcador: Benito Juárez
+    L.marker([19.371853, -99.159100]).addTo(map)
+        .bindPopup('Benito Juárez');
+    
     // Define la capa vacía para las alcaldías
     var alcaldiasLayer = L.geoJSON(null, {
         style: {
@@ -68,4 +80,5 @@
 </script>
 
 </body>
+
 </html>
