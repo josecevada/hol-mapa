@@ -37,19 +37,27 @@
 
     // Segundo marcador: Coyoacán
     L.marker([19.3467, -99.1617]).addTo(map)
-        .bindPopup('Coyoacán');
+        .bindPopup('Centro de Coyoacán');
 
     // Tercer marcador: Tlalpan
     L.marker([19.288720, -99.166920]).addTo(map)
-        .bindPopup('Tlalpan');
+        .bindPopup('Sede Delegación Tlalpan');
 
     // Cuarto marcador: Miguel Hidalgo
     L.marker([19.407493, -99.190753]).addTo(map)
-        .bindPopup('Miguel Hidalgo');
+        .bindPopup('Sede Delegación Miguel Hidalgo');
 
     // Quinto marcador: Benito Juárez
     L.marker([19.371853, -99.159100]).addTo(map)
-        .bindPopup('Benito Juárez');
+        .bindPopup('Sede Delegación Benito Juárez');
+
+    // Sexto marcador: Venustiano Carranza
+    L.marker([19.418898, -99.113939]).addTo(map)
+        .bindPopup('Sede Delegación Venustiano Carranza');
+
+    // Séptimo marcador: Iztacalco
+    L.marker([19.395542, -99.097358]).addTo(map)
+        .bindPopup('Sede Delegación Iztacalco');
     
     // Define la capa vacía para las alcaldías
     var alcaldiasLayer = L.geoJSON(null, {
@@ -82,3 +90,4 @@
 </body>
 
 </html>
+
